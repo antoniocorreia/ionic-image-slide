@@ -1,3 +1,27 @@
 page-home {
+    .slide-container{
+        position: relative;
+        height: 200px;
+    }
 
+    ion-slides{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 200px;
+
+        
+    }
+
+    .local-name{
+        z-index: 1000;
+        position: absolute;
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        
+        top: 110px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 5px;
+    }
 }
